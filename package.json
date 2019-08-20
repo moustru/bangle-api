@@ -1,0 +1,28 @@
+{
+  "name": "someapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moustru/someapi.git"
+  },
+  "author": "moustru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moustru/someapi/issues"
+  },
+  "homepage": "https://github.com/moustru/someapi#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg-promise": "^9.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
